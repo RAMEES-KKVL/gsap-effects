@@ -45,5 +45,4 @@ Thumbs.db
 .dist
 .vscode
 
-/src/app/inertia
 /src/app/nav-link

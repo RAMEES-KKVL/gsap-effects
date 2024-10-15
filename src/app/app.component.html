@@ -1,1 +1,7 @@
-<router-outlet></router-outlet>
+<div #ball class="sticky top-0 bg-opacity-60 ball hover:cursor-pointer w-[100px] h-[100px] bg-black rounded-full will-change-transform z-[1000]"></div>
+<div class="relative mt-[-100px]">
+    <app-parallax-bg></app-parallax-bg>
+    <div #container class="container overflow-x-hidden">
+        <app-hscroll></app-hscroll>
+    </div>
+</div>
