@@ -5,6 +5,7 @@ import { NavLinkComponent } from './nav-link/nav-link.component';
 import { HscrollComponent } from './hscroll/hscroll.component';
 import { InertiaComponent } from './inertia/inertia.component';
 import { AppComponent } from './app.component';
+import { CoverLayerTopComponent } from './cover-layer-top/cover-layer-top.component';
 
 const routes: Routes = [
   {
@@ -21,6 +22,9 @@ const routes: Routes = [
   },
   {
     path : "Hscroll", component : HscrollComponent
+  },
+  {
+    path : "cover-layer", component : CoverLayerTopComponent
   },
 ];
 

@@ -8,11 +8,8 @@ gsap.registerPlugin(ScrollTrigger)
   templateUrl: './parallax-bg.component.html',
   styleUrls: ['./parallax-bg.component.css']
 })
-export class ParallaxBgComponent implements OnInit, AfterViewInit {
+export class ParallaxBgComponent implements AfterViewInit {
   @ViewChildren("bgClass", { read: ElementRef }) bgSection!: QueryList<ElementRef>
-  
-  ngOnInit(): void {
-  } 
   
   ngAfterViewInit(): void {
     this.bgSection.forEach((section: ElementRef, i: number) => {
