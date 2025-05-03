@@ -10,6 +10,7 @@ import { InertiaComponent } from './inertia/inertia.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CoverLayerTopComponent } from './cover-layer-top/cover-layer-top.component';
+import { WaterFlowComponent } from './water-flow/water-flow.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CoverLayerTopComponent } from './cover-layer-top/cover-layer-top.compon
     HscrollComponent,
     NavLinkComponent,
     InertiaComponent,
-    CoverLayerTopComponent
+    CoverLayerTopComponent,
+    WaterFlowComponent
   ],
   imports: [
     BrowserModule,
